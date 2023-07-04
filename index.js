@@ -2,7 +2,7 @@ const sql = require('mssql');
 
 // Connection configuration
 const config = {
-  server: '3.80.159.225\\EC2AMAZ-4CT0EPN',
+  server: 'localhost\\EC2AMAZ-4CT0EPN',
   user: 'test',
   port: 1433,
   password: 'test',
