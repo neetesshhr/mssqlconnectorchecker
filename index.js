@@ -2,11 +2,11 @@ const sql = require('mssql');
 
 // Connection configuration
 const config = {
-  server: '3.145.47.245\\MSSQLSERVER01',
-  user: 'testuser01',
+  server: '3.80.159.225\\EC2AMAZ-4CT0EPN',
+  user: 'test',
   port: 1433,
-  password: 'test123',
-  database: 'testdb',
+  password: 'test',
+  database: 'test',
    // Disable SSL encryption
   trustServerCertificate: true,
 };
